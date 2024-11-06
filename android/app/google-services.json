@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "9397192736",
+    "project_id": "campus-map-main",
+    "storage_bucket": "campus-map-main.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9397192736:android:45b77793bfa33483d45445",
+        "android_client_info": {
+          "package_name": "com.example.campus_map"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKBhBjRag3yiPXdSp-yRDsnQjtgBTLARY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

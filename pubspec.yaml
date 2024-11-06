@@ -1,0 +1,55 @@
+name: campus_map
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_svg: ^1.0.0  
+  font_awesome_flutter: ^10.3.0 
+  cupertino_icons: ^1.0.8
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.10
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+transitive dependencies:
+  async: 2.12.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/pinpoint.png
+    - assets/image/shadow.png
+    - assets/image/MAP.png
+    - assets/image/MISFL1.png
+    - assets/image/MISFL2.png
+    - assets/image/MISFL3.png
+    - assets/image/MISFL4.png
+    - assets/image/MISFL5.png
+    
+  fonts:
+    - family: Arquitectura
+      fonts:
+        - asset: assets/font/Arquitectura Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+
+    
+
